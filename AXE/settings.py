@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'seg_permisos', #Aplicacion del modulo SEG_PERMISOS
+    'seg_roles',
     'rest_framework', #
 ]
 

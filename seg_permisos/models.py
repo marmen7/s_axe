@@ -14,4 +14,4 @@ class seg_permisos(models.Model):
     
     #
     class Meta:
-        db_table = 'seg_permisos'
+        db_table = 'seg_permisos' #Nombre de la tabla de donde traere 
