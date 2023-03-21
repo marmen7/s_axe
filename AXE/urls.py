@@ -16,10 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-#el resultado de la url seria: 127.0.0.1/axe/permisos --->ejemplo
-#por tanto la url de su aplicacion seria nombre_su_modulo/
-
 urlpatterns = [
     path('admin/', admin.site.urls),
-    #path('axe/', include('seg_permisos.urls')),
+    path('axe/', include('seg_permisos.urls')),
 ]
+
+

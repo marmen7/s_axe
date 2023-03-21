@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'seg_permisos', #Aplicacion del modulo SEG_PERMISOS
     'rest_framework', #
 ]
 
@@ -74,6 +75,7 @@ WSGI_APPLICATION = 'AXE.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+"""
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -82,7 +84,8 @@ DATABASES = {
 }
 
 """
-#Esta la sustituiremos en la reunion
+
+#BD
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -93,7 +96,7 @@ DATABASES = {
         'PORT': '5432',
     }
 }
-"""
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
